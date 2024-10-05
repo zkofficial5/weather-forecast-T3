@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('lights.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* weather panel styling section */
+ 
+.weather-panel {
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+}
+
+/* search box styling */
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7b4397;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+/* main weather details */
+.weather-header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.temperature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.temperature-container img {
+    width: 80px;
+    height: 80px;
+}
+
+.temperature-container h2 {
+    margin: 0;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+#description {
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* right panel: Highlights and weekly forecast */
+.highlight-panel {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.highlight-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* today's highlights grid */
+.highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.info-box {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+}
+
+/* weekly forecast */
+.weekly-forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.day-forecast {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+}
